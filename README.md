@@ -54,4 +54,13 @@ enum algorithm {
   };  
   
   
+  命名规律：
+G/L代表的就是 全局（global）或者局部（local）优化  
+N/D代表的就是 不需导数 或者 需要导数 的优化  
+
+例如 LN_COBYLA 就是用的 COBYLA 算法 ，然后该算法用于局部（L）无需导数（N）的优化  
   
+
+更多使用可以参考这个博客
+
+https://www.guyuehome.com/35169
